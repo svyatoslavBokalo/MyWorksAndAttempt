@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\C#\\MyWork\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj": {}
+    "C:\\Users\\PC\\source\\MyGit\\MyWorksAndAttempt\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\C#\\MyWork\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj": {
+    "C:\\Users\\PC\\source\\MyGit\\MyWorksAndAttempt\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\C#\\MyWork\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\MyGit\\MyWorksAndAttempt\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj",
         "projectName": "CassaMultithreading",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\C#\\MyWork\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj",
+        "projectPath": "C:\\Users\\PC\\source\\MyGit\\MyWorksAndAttempt\\CassaMultithreading\\CassaMultithreading\\CassaMultithreading.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\C#\\MyWork\\CassaMultithreading\\CassaMultithreading\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\MyGit\\MyWorksAndAttempt\\CassaMultithreading\\CassaMultithreading\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace CassaMultithreading
 {
-    internal interface ICassing
+    internal interface ICassingOperation
     {
-        public bool StopCassa { get; set; }
-        public void Add(Person person);
-        public Person Remove();
+        public void Add(ICassing cassing);
+        public void Remove(ICassing cassing);
     }
 }
