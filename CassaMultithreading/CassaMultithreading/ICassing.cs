@@ -8,8 +8,11 @@ namespace CassaMultithreading
 {
     internal interface ICassing
     {
-        public bool StopCassa { get; set; }
+        public Thread Threading { get; set; }
+        bool StopCassa { get; set; }
         public void Add(Person person);
         public Person Remove();
+        public bool IsEmpty();
+        public void ThreadHandler(object data);
     }
 }

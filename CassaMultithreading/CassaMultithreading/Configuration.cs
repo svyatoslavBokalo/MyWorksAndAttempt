@@ -8,7 +8,7 @@ namespace CassaMultithreading
 {
     static internal class Configuration
     {
-        static public int countCasses;
+        static public int countCasses = 3;
         static public int timeService = 1;
     }
 }
