@@ -32,7 +32,7 @@ namespace CassaMultithreading
 
         static public void ProcessCassas(ICassingOperation cassingOperation)
         {
-            Thread[] threads = new Thread[cassingOperation.Cassas.Count];
+            //Thread[] threads = new Thread[cassingOperation.Cassas.Count];
             //for (int i = 0; i < n * m / countThread; i++)
             //{
             //    for (int j = 0; j < countThread; j++)
@@ -51,11 +51,16 @@ namespace CassaMultithreading
             //}
 
 
-            for (int i = 0; i< cassingOperation.Cassas.Count; i++)
+            //for (int i = 0; i< cassingOperation.Cassas.Count; i++)
+            //{
+            //    threads[i] = cassingOperation.GetCassa(i).Threading;
+            //    threads[i].Start(cassingOperation.GetCassa(i));
+            //    threads[i].Join();
+            //}
+
+            foreach(ICassing cassing in cassingOperation.Cassas)
             {
-                threads[i] = cassingOperation.GetCassa(i).Threading;
-                threads[i].Start(cassingOperation.GetCassa(i));
-                threads[i].Join();
+                cassing.Threading.Start();
             }
         }
     }

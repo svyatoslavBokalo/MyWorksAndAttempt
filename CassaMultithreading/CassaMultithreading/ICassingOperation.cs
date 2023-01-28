@@ -13,7 +13,6 @@ namespace CassaMultithreading
         public ICassing GetCassa(int numberOfCassa);
         public void Add(ICassing cassing);
         public void Remove(ICassing cassing);
-
         public bool IsEmpty();
     }
 }

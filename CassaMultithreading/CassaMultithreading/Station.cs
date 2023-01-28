@@ -13,6 +13,7 @@ namespace CassaMultithreading
         public Station()
         {
             this.cassas = new List<ICassing>();
+            NumericOfCasses();
         }
 
         public Station(int countCassas)
@@ -23,6 +24,7 @@ namespace CassaMultithreading
             {
                 this.cassas.Add(new Cassa());
             }
+            NumericOfCasses();
         }
 
         public Station(List<ICassing> cassings)
@@ -32,6 +34,7 @@ namespace CassaMultithreading
             {
                 this.cassas.Add(cassings[i]);
             }
+            NumericOfCasses();
         }
 
         public List<ICassing> Cassas
@@ -69,6 +72,15 @@ namespace CassaMultithreading
             this.cassas.Remove(cassing);
         }
 
+        private void NumericOfCasses()
+        {
+            int k = 1;
+            foreach(ICassing cassing in cassas)
+            {
+                cassing.Id = k;
+                k++;
+            }
+        }
         public override string? ToString()
         {
             string res = "";

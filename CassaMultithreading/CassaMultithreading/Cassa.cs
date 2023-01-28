@@ -8,6 +8,7 @@ namespace CassaMultithreading
 {
     internal class Cassa: ICassing
     {
+        private long id;
         private Queue<Person> persons;
         private Thread thread;
         private bool stopCassa;
@@ -19,8 +20,17 @@ namespace CassaMultithreading
             this.stopCassa = false;
         }
 
+        public Cassa(long _id)
+        {
+            this.id = _id;
+            this.persons = new Queue<Person>();
+            this.thread = new Thread(new ParameterizedThreadStart(ThreadHandler));
+            this.stopCassa = false;
+        }
+
         public bool StopCassa { get => stopCassa; set => stopCassa = value; }
-        public Thread Threading { get => thread; set => thread = value; }
+        public Thread Threading { get => thread;  }
+        public long Id { get => this.id; set => this.id = value; }
 
         public void ThreadHandler(object data)
         {
@@ -31,8 +41,9 @@ namespace CassaMultithreading
                 if (persons.Count>0)
                 {
                     Person person = persons.Dequeue();
-                    Thread.Sleep(Configuration.timeService*person.CountProduct * 1000);
-                    Console.WriteLine("serviced!!!!!!!");
+                    Thread.Sleep(Configuration.timeService * person.CountProduct * 1000);
+                    //Thread.Sleep(1000);
+                    Console.WriteLine($"serviced!!!!!!! by {this.id} cassa");
                 }
                 else
                 {

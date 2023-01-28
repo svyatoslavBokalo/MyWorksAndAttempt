@@ -11,7 +11,7 @@ namespace CassaMultithreading
         private int countProduct;
         public Person()
         {
-            countProduct = 0;
+            countProduct = 1;
         }
 
         public Person(int countProduct)
