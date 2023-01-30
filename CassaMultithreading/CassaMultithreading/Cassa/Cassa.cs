@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CassaMultithreading.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,13 +10,13 @@ namespace CassaMultithreading
     internal class Cassa: ICassing
     {
         private long id;
-        private Queue<Person> persons;
+        private Queue<IClient> persons;
         private Thread thread;
         private bool stopCassa;
 
         public Cassa()
         {
-            this.persons = new Queue<Person>();
+            this.persons = new Queue<IClient>();
             this.thread = new Thread(new ParameterizedThreadStart(ThreadHandler));
             this.stopCassa = false;
         }
@@ -23,7 +24,7 @@ namespace CassaMultithreading
         public Cassa(long _id)
         {
             this.id = _id;
-            this.persons = new Queue<Person>();
+            this.persons = new Queue<IClient>();
             this.thread = new Thread(new ParameterizedThreadStart(ThreadHandler));
             this.stopCassa = false;
         }
@@ -40,25 +41,25 @@ namespace CassaMultithreading
                 //Console.WriteLine("it's while()");
                 if (persons.Count>0)
                 {
-                    Person person = persons.Dequeue();
+                    IClient person = persons.Dequeue();
                     Thread.Sleep(Configuration.timeService * person.CountProduct * 1000);
                     //Thread.Sleep(1000);
-                    Console.WriteLine($"serviced!!!!!!! by {this.id} cassa");
+                    Console.WriteLine($"serviced!!!!!!! by {this.id} cassa\t\t {person.ToString()}");
                 }
                 else
                 {
-                    Console.WriteLine("all customers are served!!!");
+                    Console.WriteLine($"all customers are served!!! - {this.Id}");
                     stopCassa=true;
                 }
             }
         }
 
-        public void Add(Person person)
+        public void Add(IClient person)
         {
             persons.Enqueue(person);
         }
 
-        public Person Remove()
+        public IClient Remove()
         {
             return persons.Dequeue();
         }
