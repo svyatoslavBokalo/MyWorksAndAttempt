@@ -10,9 +10,14 @@ namespace CassaMultithreading
     {
         List<ICassing> Cassas { get; }
 
+        public (double, double) DistanceForCasses();
+
         public ICassing GetCassa(int numberOfCassa);
         public void Add(ICassing cassing);
         public void Remove(ICassing cassing);
         public bool IsEmpty();
+        public bool AllEmpty();
+
+        public ICassing GetEmptyCassa();
     }
 }

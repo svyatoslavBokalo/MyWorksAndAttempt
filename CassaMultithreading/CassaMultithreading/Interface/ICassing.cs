@@ -11,10 +11,13 @@ namespace CassaMultithreading
     {
         public long Id { get; set; }
         public Thread Threading { get;  }
-        bool StopCassa { get; set; }
+        public bool StopCassa { get; set; }
+        public double Cordinate { get; set; }
         public void Add(IClient person);
         public IClient Remove();
         public bool IsEmpty();
         public void ThreadHandler(object data);
+
+        
     }
 }

@@ -33,5 +33,5 @@ using CassaMultithreading.Person;
 //Cassa cassa = new Cassa();
 //cassa.Add(new Client(3));
 
-Station station = new Station(Configuration.countCasses);
+Station station = new Station(Configuration.countCasses, Configuration.startCordinate);
 Generator.ProcessCassas(station);

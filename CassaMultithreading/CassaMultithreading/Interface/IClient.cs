@@ -9,5 +9,6 @@ namespace CassaMultithreading.Interface
     internal interface IClient: IPerson
     {
         public int CountProduct { get; set; }
+        public double TimeCordinate { get; set; }
     }
 }

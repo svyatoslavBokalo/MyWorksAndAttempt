@@ -1,0 +1,9 @@
+1, Bokalo, Svyatoslav, 20, all, 2
+2, Kornelyuc, Diana, 19, all, 8
+3, Hanos, Nestor, 20, all, 9
+4, Bokalo, Vitaliy, 28, soldier, 2
+5, Buben, Anton, 43, veteran, 3
+6, Fubix, Dana, 83, elderly, 6
+7, Dudich, Nazar, 20, all, 5
+8, Oksamut, Yura, 38, cripple, 3
+9, Horona, Maksym, 13, all, 3

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\bin\Debug\net6.0\CassaMultithreading.exe
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\bin\Debug\net6.0\CassaMultithreading.deps.json
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\bin\Debug\net6.0\CassaMultithreading.runtimeconfig.json
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\bin\Debug\net6.0\CassaMultithreading.dll
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\bin\Debug\net6.0\CassaMultithreading.pdb
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.AssemblyInfo.cs
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.dll
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\refint\CassaMultithreading.dll
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.pdb
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\CassaMultithreading.genruntimeconfig.cache
+C:\Users\Lenovo\source\MyGit\MyWorksAndAttempt\CassaMultithreading\CassaMultithreading\obj\Debug\net6.0\ref\CassaMultithreading.dll
